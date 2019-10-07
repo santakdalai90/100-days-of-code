@@ -19,16 +19,7 @@ func handleError(e error) {
 }
 
 func main(){
-	err := tpl.Execute(os.Stdout, nil)
-	handleError(err)
-
-	err = tpl.ExecuteTemplate(os.Stdout, "vespa.gotpl", nil)
-	handleError(err)
-
-	err = tpl.ExecuteTemplate(os.Stdout, "one.gotpl", nil)
-	handleError(err)
-
-	err = tpl.ExecuteTemplate(os.Stdout, "two.gotpl", nil)
+	err := tpl.ExecuteTemplate(os.Stdout, "one.gohtml", "work hard and be smart")
 	handleError(err)
 }
 
