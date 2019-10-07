@@ -13,7 +13,6 @@
 2. [Garbage Collector Monitoring](https://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html#garbage_collector_monitoring)
 3. https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go
 
-
 ### Day 2: October 4, 2019 
 
 **Today's Progress**: Started a course on web development using Golang. Revised structs, interface, composition, composite literals, and slices
@@ -29,3 +28,24 @@
 
 **Reference:** 
 1. https://docs.google.com/document/d/1QKWp1VYd26uiQZWIR05pahSa0HnbD1qqj9dtIQiVVjU/edit#heading=h.kwocfyjukz5r
+
+### Day 3: October 7, 2019 
+
+**Today's Progress**: Learnt about text templates in Golang and how to pass data, struct, slice, map, etc to it.
+
+**Thoughts:** I have never worked with Golang text templates. It seems to be a nice way to organize your code and get rid of string literals from your code.
+
+**Apologies for 2 days of delay**
+
+**Link to work:**
+1. https://tinyurl.com/y43roqa7
+2. https://tinyurl.com/y3fytv3j
+3. https://tinyurl.com/y2zpuqxw
+4. https://tinyurl.com/y6y4l7ka
+5. https://tinyurl.com/y3k7wuav
+6. https://tinyurl.com/yyr5cyj4
+7. https://tinyurl.com/y379usea
+
+**Reference:** 
+
+
