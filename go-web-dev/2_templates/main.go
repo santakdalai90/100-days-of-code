@@ -19,14 +19,14 @@ func handleError(e error) {
 }
 
 func main(){
-	s := []string{
-		"Delhi",
-		"Paris",
-		"Tokyo",
-		"Washington DC",
-		"Beijing",
+	m := map[string]string{
+		"Delhi": "India",
+		"Paris": "France",
+		"Tokyo": "Japan",
+		"Washington DC": "USA",
+		"Beijing": "China",
 	}
-	err := tpl.ExecuteTemplate(os.Stdout, "slice.gohtml", s)
+	err := tpl.ExecuteTemplate(os.Stdout, "map.gohtml", m)
 	handleError(err)
 }
 
