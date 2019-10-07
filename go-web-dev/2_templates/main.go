@@ -8,7 +8,7 @@ import (
 
 var tpl *template.Template
 
-func init(){
+func init() {
 	tpl = template.Must(template.ParseGlob("templates/*"))
 }
 
@@ -18,15 +18,18 @@ func handleError(e error) {
 	}
 }
 
-func main(){
-	m := map[string]string{
-		"Delhi": "India",
-		"Paris": "France",
-		"Tokyo": "Japan",
-		"Washington DC": "USA",
-		"Beijing": "China",
-	}
-	err := tpl.ExecuteTemplate(os.Stdout, "map.gohtml", m)
-	handleError(err)
+type geo struct {
+	Capital string
+	Country string
+	Currency string
 }
 
+func main() {
+	s := geo{
+		"Delhi",
+		"India",
+		"INR",
+	}
+	err := tpl.ExecuteTemplate(os.Stdout, "struct.gohtml", s)
+	handleError(err)
+}
