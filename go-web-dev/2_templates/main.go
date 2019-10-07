@@ -19,7 +19,14 @@ func handleError(e error) {
 }
 
 func main(){
-	err := tpl.ExecuteTemplate(os.Stdout, "one.gohtml", "work hard and be smart")
+	s := []string{
+		"Delhi",
+		"Paris",
+		"Tokyo",
+		"Washington DC",
+		"Beijing",
+	}
+	err := tpl.ExecuteTemplate(os.Stdout, "slice.gohtml", s)
 	handleError(err)
 }
 
