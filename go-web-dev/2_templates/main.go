@@ -25,11 +25,37 @@ type geo struct {
 }
 
 func main() {
-	s := geo{
+	Delhi := geo{
 		"Delhi",
 		"India",
 		"INR",
 	}
-	err := tpl.ExecuteTemplate(os.Stdout, "struct.gohtml", s)
+
+	Moscow := geo{
+		"Moscow",
+		"Russia",
+		"RUB",
+	}
+
+	Beijing := geo{
+		"Beijing",
+		"China",
+		"CNY",
+	}
+
+	Tokyo := geo{
+		"Tokyo",
+		"Japan",
+		"JPY",
+	}
+
+	Paris := geo{
+		"Paris",
+		"France",
+		"EUR",
+	}
+
+	capitals := []geo{Delhi, Moscow, Beijing, Tokyo, Paris}
+	err := tpl.ExecuteTemplate(os.Stdout, "list_of_structs.gohtml", capitals)
 	handleError(err)
 }

@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>
+        Golang Templates Example
+    </title>
+</head>
+<body>
+    <ul>
+        {{range .}}
+        <li>{{.Capital}} is capital of {{.Country}} and its currency is {{.Currency}}</li>
+        {{end}}
+    </ul>
+</body>
+</html>
