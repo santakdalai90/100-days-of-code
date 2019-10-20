@@ -48,4 +48,15 @@
 
 **Reference:** 
 
+### Day 4: October 16, 2019 
 
+**Today's Progress**: Created a twitter client application using Golang to retweet and like #100DaysOfCode hashtag.
+
+**Thoughts:** I have always wanted to create a twitter client for long. But there were many hiccups like setting up an application in twitter, understanding about OAuth1.0, etc. It took courage and persistence to complete this.
+
+**Commiting 1 hour of coding daily along with job priority is not easy, hence I would be completing 100 days of code in 5 months**
+
+**Link to work:**
+1. https://t.co/5HcFVnyIlB?amp=1
+
+**Reference:**
