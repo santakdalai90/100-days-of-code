@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>
+        Golang Templates Example
+    </title>
+</head>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Currency</th>
+            <th>Shorthand</th>
+            <th>Weather</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{range .}}
+        <tr>
+            <td>{{.Country}}</td>
+            <td>{{.Name}}</td>
+            <td>{{.Currency}}</td>
+            <td>{{shorthand .Country}}</td>
+            <td>{{weather .Name}}</td>
+        </tr>
+        {{end}}
+    </tbody>
+</table>
+</body>
+</html>
