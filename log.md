@@ -60,3 +60,14 @@
 1. https://t.co/5HcFVnyIlB?amp=1
 
 **Reference:**
+
+### Day 5: October 20, 2019 
+
+**Today's Progress**: Learnt about passing functions to templates and using [OpenWeatherMap API](https://openweathermap.org/api).
+
+**Thoughts:** Passing functions to template helps the frontend to easily perform some utility tasks without consulting back to the backend. This is helpful for manipulating responses fetched from the backend.
+
+OpenWeatheMap is a fun api and it's interesting to note that it's a very easy to use API.
+
+**Link to work:**
+1. https://bit.ly/2BtDpFq
